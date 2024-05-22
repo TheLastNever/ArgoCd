@@ -5,3 +5,4 @@ metadata:
   namespace: hello-world
 data:
   hello: "my first argocd application"
+  world: "my world"
