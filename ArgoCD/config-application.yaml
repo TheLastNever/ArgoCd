@@ -1,14 +1,14 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: hello-world-application
+  name: config-application
   namespace: argocd
 spec:
   project: default
   source:
     repoURL: https://github.com/TheLastNever/ArgoCd.git
     targetRevision: HEAD
-    path: DeploymentFiles
+    path: Config
   destination:
     server: https://kubernetes.default.svc
     namespace: hello-world
