@@ -13,7 +13,7 @@ spec:
         app: hello-world
     spec:
       containers:
-        - name: hello-world-container
+        - name: hello-world
           image: ahmetyas/hello-world:v1.0
           ports:
             - containerPort: 8080
