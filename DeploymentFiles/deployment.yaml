@@ -21,10 +21,10 @@ spec:
             - name: http
               containerPort: 8080
               protocol: TCP
-      env: 
-        - name: hello
-          valueFrom:
-            configMapKeyRef:
-              name: hello-world-configmap
-              key: hello
+          env: 
+            - name: hello
+              valueFrom:
+                configMapKeyRef:
+                  name: hello-world-configmap
+                  key: hello
 ---

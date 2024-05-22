@@ -4,4 +4,4 @@ metadata:
   name: hello-world-configmap
   namespace: hello-world
 data:
-  hello: "my name is"
+  hello: "my first argocd application"
