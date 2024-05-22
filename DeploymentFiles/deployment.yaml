@@ -27,4 +27,9 @@ spec:
                 configMapKeyRef:
                   name: hello-world-configmap
                   key: hello
+            - name: world
+              valueFrom:
+                configMapKeyRef:
+                  name: hello-world-configmap
+                  key: world
 ---
