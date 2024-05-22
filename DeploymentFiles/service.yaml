@@ -5,7 +5,7 @@ metadata:
   namespace: hello-world
 spec:
   selector:
-    name: hello-world
+    app.kubernetes.io/instance: hello-world-application
   ports:
     - name: http
       protocol: TCP
